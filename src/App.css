@@ -1,0 +1,66 @@
+.comments {
+    border: black 2px solid;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;   
+}
+
+.form {
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+form {
+    border: black 2px solid;
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+    padding: 3rem;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input {
+    margin-bottom: 1rem;
+    border: black 2px solid;
+}
+
+form :nth-child(4){
+    height: 10rem;
+}
+
+form button {
+    border: black 2px solid;
+    width: 3rem;
+    background-color: white;
+    margin-left: 90%;
+    font-weight: bold;
+}
+
+form button:active{
+    color: dimgrey;
+    border: dimgrey 2px solid;
+}
+
+.CommentList ul {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    margin: 3rem;
+    list-style-type: none;
+}
+
+.CommentList ul :nth-child(odd) {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+.CommentList ul :nth-child(even) {
+    margin-bottom: 2rem;
+}
+
+h1 {
+    text-align: center;
+}

@@ -1,0 +1,17 @@
+.User {
+    border: black 2px solid;
+    padding: 1rem; 
+}
+
+.User ul {
+    margin: 3rem;
+    list-style-type: none;
+}
+
+.User li {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    text-align: center;
+}
